@@ -23,7 +23,7 @@ async def start(client, message):
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         buttons = [
             [
-                InlineKeyboardButton('Updates Channel🍿🎬', url='https://t.me/Lordship_series')
+                InlineKeyboardButton('Updates Channel', url='https://t.me/onlyseries76')
             ],
             [
                 InlineKeyboardButton('ℹ️ Help', url=f"https://t.me/{temp.U_NAME}?start=help"),
@@ -45,13 +45,13 @@ async def start(client, message):
             InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
             InlineKeyboardButton('Search Here 🔍', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('Updates Channel🍿🎬', url='https://t.me/Lordship_series')
+            InlineKeyboardButton('Updates Channel 🍿🎬', url='https://t.me/onlyseries76')
             ],[
-            InlineKeyboardButton('Movie Bot🎥', url='https://t.me/LordshipMovies'),
-            InlineKeyboardButton('Adult Bot🔞', url='https://t.me/Adultship')
+            InlineKeyboardButton('Movie Group 🎬', url='https://t.me/onlymovie76'),
+            InlineKeyboardButton('Series Group 📺', url='https://t.me/TvSeriesLand4U')
             ],[
             InlineKeyboardButton('Help ⚙', callback_data='help'),
-            InlineKeyboardButton('🥰🅾︎🆆︎🅽︎🅴︎🆁︎', callback_data='owner')
+            InlineKeyboardButton('🤖 Bot', callback_data='owner')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -94,13 +94,13 @@ async def start(client, message):
             InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
             InlineKeyboardButton('Search Here 🔍', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('Updates Channel🍿🎬', url='https://t.me/Lordship_series')
+            InlineKeyboardButton('Updates Channel🍿🎬', url='https://t.me/onlyseries76')
             ],[
-            InlineKeyboardButton('Series Bot🎥', url='https://t.me/LordshipMovies'),
-            InlineKeyboardButton('Adult Bot🔞', url='https://t.me/Adultship')
+            InlineKeyboardButton('Series Group 📺', url='https://t.me/TvSeriesLand4U'),
+            InlineKeyboardButton('Movie Group 🎬', url='https://t.me/onlymovie76')
             ],[
             InlineKeyboardButton('Help ⚙', callback_data='help'),
-            InlineKeyboardButton('🥰🅾︎🆆︎🅽︎🅴︎🆁︎', callback_data='owner')
+            InlineKeyboardButton('🤖 Bots', callback_data='owner')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
